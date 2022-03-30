@@ -1,0 +1,16 @@
+{
+  "name": "supra bot",
+  "repository": "https://github.com/newton-cant/privado2.git",
+  "logo": "https://te.legra.ph/file/4d31526f78454707c7151.jpg",
+  "buildpacks": [
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
